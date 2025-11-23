@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youssef Bassem Ramzy - CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            /* bg-gray-100 */
+        }
+
+        /* Print styles to ensure it looks like a document */
+        @media print {
+            body {
+                background-color: white;
+                -webkit-print-color-adjust: exact;
+            }
+
+            .no-print {
+                display: none !important;
+            }
+
+            .page {
+                box-shadow: none !important;
+                margin: 0 !important;
+                width: 100% !important;
+                max-width: none !important;
+            }
+        }
+
+        .page {
+            max-width: 210mm;
+            /* A4 width */
+            margin: 2rem auto;
+            background: white;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            min-height: 297mm;
+            /* A4 height */
+        }
+    </style>
+</head>
+
+<body class="text-gray-800">
+
+    <!-- Floating Action Button for Printing -->
+    <div class="fixed bottom-8 right-8 no-print z-50">
+        <button onclick="window.print()"
+            class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full shadow-lg flex items-center gap-2 transition-all transform hover:scale-105">
+            <i class="fas fa-print"></i> Print / Save as PDF
+        </button>
+    </div>
+
+    <div class="page p-8 md:p-12">
+
+        <!-- Header -->
+        <header class="border-b-2 border-gray-200 pb-8 mb-8">
+            <h1 class="text-4xl font-bold text-gray-900 uppercase tracking-tight">Youssef Bassem Ramzy</h1>
+            <p class="text-xl text-blue-600 font-medium mt-2">Business Student & Software Developer</p>
+
+            <div class="flex flex-wrap gap-4 mt-6 text-sm text-gray-600">
+                <!-- Placeholders for contact info -->
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-envelope text-gray-400"></i>
+                    <span>yousseframzybusiness@gmail.com</span> <!-- Update this -->
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-phone text-gray-400"></i>
+                    <span>+20 1155773195</span> <!-- Update this -->
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-map-marker-alt text-gray-400"></i>
+                    <span>Cairo, Egypt</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fab fa-github text-gray-400"></i>
+                    <span>github.com/Rywkse</span> <!-- Update this -->
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fab fa-linkedin text-gray-400"></i>
+                    <span>linkedin.com/in/youssef-ramzy0/</span> <!-- Update this -->
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <!-- Left Column: Experience & Education -->
+            <div class="md:col-span-2 space-y-8">
+
+                <!-- Profile Summary -->
+                <section>
+                    <h2
+                        class="text-lg font-bold text-gray-900 uppercase tracking-wider border-b border-gray-200 pb-2 mb-4">
+                        <i class="fas fa-user-circle text-blue-600 mr-2"></i> Profile
+                    </h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        Motivated Business student at Ain Shams University with a strong technical foundation in
+                        software development.
+                        Combines analytical business acumen with practical skills in C++, Web Development, and Linux
+                        systems.
+                        Committed to continuous learning with a proven track record of completing intensive technical
+                        certifications.
+                        Demonstrates high efficiency with fast typing skills in both Arabic and English.
+                    </p>
+                </section>
+
+                <!-- Certifications -->
+                <section>
+                    <h2
+                        class="text-lg font-bold text-gray-900 uppercase tracking-wider border-b border-gray-200 pb-2 mb-4">
+                        <i class="fas fa-certificate text-blue-600 mr-2"></i> Certifications
+                    </h2>
+                    <div class="space-y-4">
+                        <!-- CSS -->
+                        <div>
+                            <div class="flex justify-between items-baseline">
+                                <h3 class="font-bold text-gray-800">The Origins II: CSS</h3>
+                                <span class="text-sm text-gray-500">Feb 2025</span>
+                            </div>
+                            <p class="text-sm text-gray-600 italic">Codédex</p>
+                            <p class="text-sm text-gray-600 mt-1">Mastery of selectors, properties, box model, and
+                                layout. Completed expert-reviewed projects.</p>
+                        </div>
+
+                        <!-- HTML -->
+                        <div>
+                            <div class="flex justify-between items-baseline">
+                                <h3 class="font-bold text-gray-800">The Origins I: HTML</h3>
+                                <span class="text-sm text-gray-500">Feb 2025</span>
+                            </div>
+                            <p class="text-sm text-gray-600 italic">Codédex</p>
+                            <p class="text-sm text-gray-600 mt-1">Semantic HTML, forms, and attributes. 25+ hours of
+                                hands-on coding.</p>
+                        </div>
+
+                        <!-- ALX -->
+                        <div>
+                            <div class="flex justify-between items-baseline">
+                                <h3 class="font-bold text-gray-800">AI Career Essentials</h3>
+                                <span class="text-sm text-gray-500">Sep 2024</span>
+                            </div>
+                            <p class="text-sm text-gray-600 italic">ALX</p>
+                            <p class="text-sm text-gray-600 mt-1">8-week intensive program on AI Augmented Professional
+                                Development skills.</p>
+                        </div>
+
+                        <!-- ProgrammingAdvices Items -->
+                        <div>
+                            <div class="flex justify-between items-baseline">
+                                <h3 class="font-bold text-gray-800">Algorithms & Problem-Solving (Level 1)</h3>
+                                <span class="text-sm text-gray-500">July 2024 - Sep 2024</span>
+                            </div>
+                            <p class="text-sm text-gray-600 italic">ProgrammingAdvices</p>
+                            <p class="text-sm text-gray-600 mt-1">Comprehensive training in logic building, algorithms,
+                                and practical solutions.</p>
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between items-baseline">
+                                <h3 class="font-bold text-gray-800">Programming Using C++ (Level 1)</h3>
+                                <span class="text-sm text-gray-500">July 2024</span>
+                            </div>
+                            <p class="text-sm text-gray-600 italic">ProgrammingAdvices</p>
+                        </div>
+
+                        <!-- Coursera -->
+                        <div>
+                            <div class="flex justify-between items-baseline">
+                                <h3 class="font-bold text-gray-800">Learning How to Learn</h3>
+                                <span class="text-sm text-gray-500">July 2024</span>
+                            </div>
+                            <p class="text-sm text-gray-600 italic">Coursera (Deep Teaching Solutions)</p>
+                            <p class="text-sm text-gray-600 mt-1">Powerful mental tools to master tough subjects.</p>
+                        </div>
+
+                        <!-- Git -->
+                        <div>
+                            <div class="flex justify-between items-baseline">
+                                <h3 class="font-bold text-gray-800">Git and GitHub</h3>
+                                <span class="text-sm text-gray-500">2024</span>
+                            </div>
+                            <p class="text-sm text-gray-600 italic">Almdrasa</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Education -->
+                <section>
+                    <h2
+                        class="text-lg font-bold text-gray-900 uppercase tracking-wider border-b border-gray-200 pb-2 mb-4">
+                        <i class="fas fa-graduation-cap text-blue-600 mr-2"></i> Education
+                    </h2>
+                    <div>
+                        <div class="flex justify-between items-baseline">
+                            <h3 class="font-bold text-gray-800">Bachelor's Degree in Business</h3>
+                            <span class="text-sm text-gray-500">Expected 2027</span>
+                        </div>
+                        <p class="text-gray-600 font-medium">Ain Shams University</p>
+                        <p class="text-sm text-gray-500">Cairo, Egypt</p>
+                    </div>
+                </section>
+
+            </div>
+
+            <!-- Right Column: Skills & Info -->
+            <div class="space-y-8">
+
+                <!-- Technical Skills -->
+                <section>
+                    <h2
+                        class="text-lg font-bold text-gray-900 uppercase tracking-wider border-b border-gray-200 pb-2 mb-4">
+                        <i class="fas fa-code text-blue-600 mr-2"></i> Technical Skills
+                    </h2>
+
+                    <div class="mb-4">
+                        <h3 class="text-sm font-bold text-gray-700 mb-2">Languages</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded">C++</span>
+                            <span
+                                class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded">JavaScript</span>
+                            <span
+                                class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded">HTML5</span>
+                            <span
+                                class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded">CSS3</span>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <h3 class="text-sm font-bold text-gray-700 mb-2">Tools & Systems</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded">Git &
+                                GitHub</span>
+                            <span
+                                class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded">Bash</span>
+                            <span
+                                class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded">Unix/Linux</span>
+                            <span class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded">VS
+                                Code</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-sm font-bold text-gray-700 mb-2">Core Concepts</h3>
+                        <ul class="list-disc list-inside text-sm text-gray-600">
+                            <li>Algorithms & Data Structures</li>
+                            <li>Object-Oriented Programming</li>
+                            <li>Problem Solving</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Languages -->
+                <section>
+                    <h2
+                        class="text-lg font-bold text-gray-900 uppercase tracking-wider border-b border-gray-200 pb-2 mb-4">
+                        <i class="fas fa-language text-blue-600 mr-2"></i> Languages
+                    </h2>
+                    <ul class="space-y-3">
+                        <li>
+                            <div class="flex justify-between text-sm">
+                                <span class="font-semibold text-gray-700">Arabic</span>
+                                <span class="text-gray-500">Native</span>
+                            </div>
+                            <div class="text-xs text-gray-500 mt-0.5"><i class="fas fa-keyboard mr-1"></i> Fast Typer
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between text-sm">
+                                <span class="font-semibold text-gray-700">English</span>
+                                <span class="text-gray-500">B2 (Upper Intermediate)</span>
+                            </div>
+                            <div class="text-xs text-gray-500 mt-0.5"><i class="fas fa-keyboard mr-1"></i> Fast Typer
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Soft Skills -->
+                <section>
+                    <h2
+                        class="text-lg font-bold text-gray-900 uppercase tracking-wider border-b border-gray-200 pb-2 mb-4">
+                        <i class="fas fa-lightbulb text-blue-600 mr-2"></i> Soft Skills
+                    </h2>
+                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                        <li>Analytical Thinking</li>
+                        <li>Adaptability (Learning How to Learn)</li>
+                        <li>Time Management</li>
+                        <li>Business Acumen</li>
+                    </ul>
+                </section>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <!-- <footer class="mt-12 text-center text-xs text-gray-400 no-print">
+            <p>Generated by Gemini • references provided by user</p>
+        </footer> -->
+
+    </div>
+
+</body>
+
+</html>
