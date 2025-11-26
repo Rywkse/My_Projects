@@ -145,3 +145,98 @@ th {
     background-color: gold;
     color: black;
 }
+
+/* Responsive styles */
+.table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Phones and small tablets */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    .menu {
+        width: 100%;
+        height: auto;
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        overflow: auto;
+    }
+
+    .menu:hover { width: 100%; } /* keep hover from expanding on mobile */
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        height: auto;
+        align-items: center;
+    }
+
+    .menu li {
+        flex: none;
+    }
+
+    .menu li a {
+        padding: 8px 10px;
+        gap: 8px;
+        border-radius: 6px;
+    }
+
+    .menu li img {
+        width: 40px;
+        margin-bottom: 0;
+    }
+
+    .profile h3 {
+        font-size: 14px;
+    }
+
+    .content {
+        margin: 8px;
+    }
+
+    .data-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .data-info .box {
+        flex-basis: auto;
+        width: 100%;
+        height: auto;
+        padding: 12px;
+        border-radius: 8px;
+    }
+
+    .data-info .box .data span {
+        font-size: 22px;
+    }
+
+    .title-info {
+        padding: 8px;
+    }
+
+    .title-info p {
+        font-size: 16px;
+    }
+
+    table {
+        width: 100%;
+        min-width: 600px; /* keeps horizontal scroll for wide tables */
+        font-size: 14px;
+    }
+
+    td, th {
+        height: auto;
+        padding: 8px;
+    }
+
+    ul li a i {
+        font-size: 20px;
+    }
+}
